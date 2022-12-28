@@ -1,19 +1,22 @@
-AWSTemplateFormatVersion: 2010-09-09
+AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Uses Kinesis Firehose to fanout SNS notifications to S3.
 
 
-Parameters:
-  DestinationBucketName:
-    Type: String
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 128
+    Runtime: python3.9
+    Tracing: Active
+  Api:
+    TracingEnabled: True
 
 Resources:
 
   ########## DESTINATION S3 BUCKET ###########
   DestinationBucket:
     Type: AWS::S3::Bucket
-    Properties:
-      BucketName: !Ref DestinationBucketName
 
   ########## KINESIS DATA FIREHOSE ###########
   DeliveryStream:
@@ -151,3 +154,8 @@ Resources:
             Principal:
               Service: firehose.amazonaws.com
             Action: sts:AssumeRole
+
+Outputs:
+  SNSPublisherAPI:
+    Description: "API Gateway endpoint URL for Prod stage for SNS function"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/sns_message/"

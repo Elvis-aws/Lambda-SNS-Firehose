@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Lambda-SNS-Firehose.iml" filepath="$PROJECT_DIR$/.idea/Lambda-SNS-Firehose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SystemsManager-Lambda/.idea/SystemsManager-Lambda.iml" filepath="$PROJECT_DIR$/../SystemsManager-Lambda/.idea/SystemsManager-Lambda.iml" />
     </modules>
   </component>
 </project>
