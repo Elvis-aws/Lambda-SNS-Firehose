@@ -12,3 +12,9 @@ Amazon Kinesis Video Streams
     - Kinesis Video Streams enables you to playback video for live and on-demand viewing, and quickly build 
       applications that take advantage of computer vision and video analytics through integration 
       with Amazon Rekognition Video, and libraries for ML frameworks such as Apache MxNet, TensorFlow
+
+Example YouTube video => https://www.google.co.uk/search?q=Amazon+Kinesis+Video+Streams&biw=1920&bih=912&tbm=vid&sxsrf
+=AJOqlzV-KJrJxgxeAdyc130KC4oIP3i1ug%3A1673441974637&ei=trK-Y8nCJsKX8gLf5pjYBw&ved=
+0ahUKEwjJ9cyTyb_8AhXCi1wKHV8zBnsQ4dUDCA0&uact=5&oq=Amazon+Kinesis+Video+Streams&gs_lcp=
+Cg1nd3Mtd2l6LXZpZGVvEAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIYDUA
+BYAGCmEGgAcAB4AIABWYgBWZIBATGYAQCgAQKgAQHAAQE&sclient=gws-wiz-video#fpstate=ive&vld=cid:42b5e6c5,vid:nVxwX7Q9nPU

@@ -10,19 +10,19 @@ Consumers (Classic Fan-Out-Consumer)
         - Kinesis Data Firehose
         - Custom consumer
         - Kinesis Client Library
-    - Get requests of 2MB/Sec
+    - Get requests of 2 MB/Sec
     - GetRecords API
     - Pull method: Consumer pulls from Kinesis
     - Max 5 GetRecord API calls
     - Latency 200
     - retries
-    - Returns up to 10MB then throttles for 5 seconds
-    - Many consumers can read from same shard (They all share the 2MB/S read capacity)
+    - Returns up to 10 MB then throttles for 5 seconds
+    - Many consumers can read from same shard (They all share the 2 MB/S read capacity)
 ************************************
 Consumer (Enhanced Fan-Out-Consumer)
 ************************************
     - Subscribe to shard API
-    - 2MB/S per consumer/shard
+    - 2 MB/S per consumer/shard
     - Multiple applications for same stream
     - Latency 70
     - Kinesis will push data
