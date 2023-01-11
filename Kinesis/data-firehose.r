@@ -10,9 +10,9 @@ Kinesis Data Firehose
         - Kinesis Data Stream
         - Amazon CloudWatch
         - AWS IOT
-    - Up to 1MB
+    - Up to 1 MB
     - No data storage (No data replay)
-    - Automatic scalling
+    - Automatic scaling
     - Near real time
     - Writes data in batches
     - Destinations include
@@ -23,6 +23,6 @@ Kinesis Data Firehose
         - Data dog
     - Using own HTTP endpoint
     - Buffer Interval
-        - Time limmit before records are proccessed and sent to destination by Firehose
+        - Time limit before records are processed and sent to destination by Firehose
     - Buffer size
         - The max size data must be before delivering to destination
